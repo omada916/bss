@@ -1484,6 +1484,7 @@ function BeeSwarmSimulator(DATA){
                 player.showGeneratedAmulet('bronzeStarAmulet',amulet)
             }
         },
+        player.honey = 99999999999999999;
 
         silver_star_amulet_generator:{
             
