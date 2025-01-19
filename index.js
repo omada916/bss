@@ -34746,6 +34746,8 @@ function BeeSwarmSimulator(DATA){
         window.cancelAnimationFrame(window.parent.raf)
     }
 
+    player.honey=99999999999999999999;
+
     loop(0)
 
     window.exposeCheats=()=>{
